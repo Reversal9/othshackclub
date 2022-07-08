@@ -6,11 +6,111 @@
 -->
 <html>
 	<head>
-		<title>Elements - Editorial by HTML5 UP</title>
+		<title>OTHS Hack Club</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/hack-logo.png" />
 		<script src="https://kit.fontawesome.com/bd9c1953c3.js" crossorigin="anonymous"></script>
+		<!--Hack Club CSS-->
+		<style id="__jsx-4015011544">
+			#nprogress {
+				pointer-events: none
+			}
+	
+			#nprogress .bar {
+				background: #ec3750;
+				position: fixed;
+				z-index: 1031;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 2px
+			}
+	
+			#nprogress .peg {
+				display: block;
+				position: absolute;
+				right: 0px;
+				width: 100px;
+				height: 100%;
+				box-shadow: 0 0 10px #ec3750, 0 0 5px #ec3750;
+				opacity: 1;
+				-webkit-transform: rotate(3deg) translate(0px, -4px);
+				-ms-transform: rotate(3deg) translate(0px, -4px);
+				-webkit-transform: rotate(3deg) translate(0px, -4px);
+				-moz-transform: rotate(3deg) translate(0px, -4px);
+				-ms-transform: rotate(3deg) translate(0px, -4px);
+				transform: rotate(3deg) translate(0px, -4px)
+			}
+	
+			#nprogress .spinner {
+				display: block;
+				position: fixed;
+				z-index: 1031;
+				top: 15px;
+				right: 15px
+			}
+	
+			#nprogress .spinner-icon {
+				width: 18px;
+				height: 18px;
+				box-sizing: border-box;
+				border: solid 2px transparent;
+				border-top-color: #ec3750;
+				border-left-color: #ec3750;
+				border-radius: 50%;
+				-webkit-animation: nprogresss-spinner 400ms linear infinite;
+				-webkit-animation: nprogress-spinner 400ms linear infinite;
+				animation: nprogress-spinner 400ms linear infinite
+			}
+	
+			.nprogress-custom-parent {
+				overflow: hidden;
+				position: relative
+			}
+	
+			.nprogress-custom-parent #nprogress .spinner,
+			.nprogress-custom-parent #nprogress .bar {
+				position: absolute
+			}
+	
+			@keyframes nprogress-spinner {
+				0% {
+					-webkit-transform: rotate(0deg)
+				}
+	
+				100% {
+					-webkit-transform: rotate(360deg)
+				}
+			}
+	
+			@keyframes nprogress-spinner {
+				0% {
+					transform: rotate(0deg)
+				}
+	
+				100% {
+					transform: rotate(360deg)
+				}
+			}
+		</style>
+		<style id="__jsx-df1f1d491a1983ec">
+			#__next {
+				min-height: 100vh;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-webkit-box-pack: justify;
+				-webkit-justify-content: space-between;
+				justify-content: space-between
+			}
+		</style>
+		<!--End of Hack Club CSS-->
 	</head>
 	<body class="is-preload">
 
@@ -23,7 +123,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+									<a href="index.html" class="logo"><strong>Tompkins Hack Club</strong></a>
 									<ul class="icons">
 										<li><a href="https://www.remind.com/join/othshack" class="icon brands fa-regular fa-r"></a></li>
 										<li><a href=" https://hackclub.com/slack/" class="icon brands fa-slack"></a></li>
@@ -36,36 +136,415 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Elements</h1>
+										<h1>Resources</h1>
 									</header>
 
 									<!-- Content -->
-										<h2 id="content">Sample Content</h2>
-										<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.</p>
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<h3>Sem turpis amet semper</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-											</div>
-											<div class="col-6 col-12-small">
-												<h3>Magna odio tempus commodo</h3>
-												<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan.</p>
-											</div>
-											<!-- Break -->
-											<div class="col-4 col-12-medium">
-												<h3>Interdum sapien gravida</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
-											</div>
-											<div class="col-4 col-12-medium">
-												<h3>Faucibus consequat lorem</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
-											</div>
-											<div class="col-4 col-12-medium">
-												<h3>Accumsan montes viverra</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
-											</div>
-										</div>
 
+										<h2 id="content">Workshops</h2>
+
+										<!--Start of Hack Club Workshops-->
+
+										<script>(function () {
+												try {
+													var mode = localStorage.getItem('theme-ui-color-mode');
+													if (!mode) return
+													document.documentElement.classList.add('theme-ui-' + mode);
+													document.body.classList.add('theme-ui-' + mode);
+												} catch (e) { }
+											})();</script>
+										<div id="__next" data-reactroot="">
+											<style data-emotion="css-global pgjzwd">
+												html {
+													--theme-ui-colors-darker: #121217;
+													--theme-ui-colors-dark: #17171d;
+													--theme-ui-colors-darkless: #252429;
+													--theme-ui-colors-black: #1f2d3d;
+													--theme-ui-colors-steel: #273444;
+													--theme-ui-colors-slate: #3c4858;
+													--theme-ui-colors-muted: #8492a6;
+													--theme-ui-colors-smoke: #e0e6ed;
+													--theme-ui-colors-snow: #f9fafc;
+													--theme-ui-colors-white: #ffffff;
+													--theme-ui-colors-red: #ec3750;
+													--theme-ui-colors-orange: #ff8c37;
+													--theme-ui-colors-yellow: #f1c40f;
+													--theme-ui-colors-green: #33d6a6;
+													--theme-ui-colors-cyan: #5bc0de;
+													--theme-ui-colors-blue: #338eda;
+													--theme-ui-colors-purple: #a633d6;
+													--theme-ui-colors-twitter: #1da1f2;
+													--theme-ui-colors-facebook: #3b5998;
+													--theme-ui-colors-instagram: #e1306c;
+													--theme-ui-colors-text: #1f2d3d;
+													--theme-ui-colors-background: #ffffff;
+													--theme-ui-colors-elevated: #ffffff;
+													--theme-ui-colors-sheet: #f9fafc;
+													--theme-ui-colors-sunken: #e0e6ed;
+													--theme-ui-colors-border: #e0e6ed;
+													--theme-ui-colors-placeholder: #8492a6;
+													--theme-ui-colors-secondary: #3c4858;
+													--theme-ui-colors-primary: #ec3750;
+													--theme-ui-colors-accent: #338eda;
+													color: var(--theme-ui-colors-text);
+													background-color: var(--theme-ui-colors-background);
+												}
+									
+												html.theme-ui-light {
+													--theme-ui-colors-darker: #121217;
+													--theme-ui-colors-dark: #17171d;
+													--theme-ui-colors-darkless: #252429;
+													--theme-ui-colors-black: #1f2d3d;
+													--theme-ui-colors-steel: #273444;
+													--theme-ui-colors-slate: #3c4858;
+													--theme-ui-colors-muted: #8492a6;
+													--theme-ui-colors-smoke: #e0e6ed;
+													--theme-ui-colors-snow: #f9fafc;
+													--theme-ui-colors-white: #ffffff;
+													--theme-ui-colors-red: #ec3750;
+													--theme-ui-colors-orange: #ff8c37;
+													--theme-ui-colors-yellow: #f1c40f;
+													--theme-ui-colors-green: #33d6a6;
+													--theme-ui-colors-cyan: #5bc0de;
+													--theme-ui-colors-blue: #338eda;
+													--theme-ui-colors-purple: #a633d6;
+													--theme-ui-colors-twitter: #1da1f2;
+													--theme-ui-colors-facebook: #3b5998;
+													--theme-ui-colors-instagram: #e1306c;
+													--theme-ui-colors-text: #1f2d3d;
+													--theme-ui-colors-background: #ffffff;
+													--theme-ui-colors-elevated: #ffffff;
+													--theme-ui-colors-sheet: #f9fafc;
+													--theme-ui-colors-sunken: #e0e6ed;
+													--theme-ui-colors-border: #e0e6ed;
+													--theme-ui-colors-placeholder: #8492a6;
+													--theme-ui-colors-secondary: #3c4858;
+													--theme-ui-colors-primary: #ec3750;
+													--theme-ui-colors-accent: #338eda;
+												}
+									
+												html.theme-ui-dark {
+													--theme-ui-colors-text: #ffffff;
+													--theme-ui-colors-background: #17171d;
+													--theme-ui-colors-elevated: #252429;
+													--theme-ui-colors-sheet: #252429;
+													--theme-ui-colors-sunken: #121217;
+													--theme-ui-colors-border: #252429;
+													--theme-ui-colors-placeholder: #3c4858;
+													--theme-ui-colors-secondary: #8492a6;
+													--theme-ui-colors-muted: #8492a6;
+													--theme-ui-colors-accent: #5bc0de;
+												}
+											</style>
+											<!-- Grey background
+											<style data-emotion="css 2zmbv5">
+												.css-2zmbv5 {
+													box-sizing: border-box;
+													margin: 0;
+													min-width: 0;
+													background-image: linear-gradient(to bottom, var(--theme-ui-colors-sheet), var(--theme-ui-colors-sunken));
+													padding-top: 32px;
+													padding-bottom: 32px;
+													color: var(--theme-ui-colors-text);
+												}
+									
+												@media screen and (min-width: 32em) {
+													.css-2zmbv5 {
+														padding-top: 16px;
+														padding-bottom: 16px;
+													}
+												}
+									
+												@media print {
+													.css-2zmbv5 {
+														background: none !important;
+													}
+												}
+											</style>
+											-->
+											<section id="hack_lab" class="css-2zmbv5">
+												<style data-emotion="css 1t5zxyg">
+													.css-1t5zxyg {
+														box-sizing: border-box;
+														margin: 0;
+														min-width: 0;
+														width: 100%;
+														max-width: container;
+														margin-left: auto;
+														margin-right: auto;
+														max-width: 1024px;
+														width: 100%;
+														margin-left: auto;
+														margin-right: auto;
+														padding-left: 16px;
+														padding-right: 16px;
+													}
+									
+													@media screen and (min-width: 48em) {
+														.css-1t5zxyg {
+															max-width: 1200px;
+														}
+													}
+												</style>
+												<div class="css-1t5zxyg">
+													<style data-emotion="css 2tqjzi">
+														.css-2tqjzi {
+															box-sizing: border-box;
+															margin: 0;
+															min-width: 0;
+															display: table-cell;
+															vertical-align: middle;
+														}
+													</style>
+													<div class="css-2tqjzi">
+														<style data-emotion="css 16yi70h">
+															.css-16yi70h {
+																box-sizing: border-box;
+																margin: 0;
+																min-width: 0;
+																font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+																font-weight: 700;
+																line-height: 1.125;
+																font-weight: 700;
+																line-height: 1.125;
+																margin-top: 16px;
+																margin-bottom: 16px;
+																letter-spacing: 0.009em;
+																font-size: 20px;
+																margin-top: 0;
+																margin-bottom: 4px;
+																display: inline;
+																width: -webkit-fit-content;
+																width: -moz-fit-content;
+																width: fit-content;
+															}
+														</style>
+														<h1 class="css-16yi70h">Provided by Hack Club Workshops (https://workshops.hackclub.com/)</h2>
+														<style data-emotion="css 1926hx2">
+															.css-1926hx2 {
+																box-sizing: border-box;
+																margin: 0;
+																min-width: 0;
+																position: relative;
+																display: inline;
+																width: -webkit-fit-content;
+																width: -moz-fit-content;
+																width: fit-content;
+																color: var(--theme-ui-colors-muted);
+																padding-left: 5px;
+															}
+									
+															.css-1926hx2:hover,
+															.css-1926hx2:focus {
+																cursor: pointer;
+															}
+									
+															.css-1926hx2:hover>span,
+															.css-1926hx2:focus>span {
+																display: block;
+															}
+														</style>
+													</div>
+													
+													<style data-emotion="css 1ewwnlw">
+														.css-1ewwnlw {
+															box-sizing: border-box;
+															margin: 0;
+															min-width: 0;
+															display: grid;
+															grid-gap: 16px;
+															margin-top: 16px;
+														}
+									
+														@media screen and (min-width: 32em) {
+															.css-1ewwnlw {
+																grid-gap: 32px;
+																grid-template-columns: repeat(2, 1fr);
+															}
+														}
+									
+														@media screen and (min-width: 48em) {
+															.css-1ewwnlw {
+																grid-template-columns: repeat(4, 1fr);
+															}
+														}
+									
+														@media screen and (min-width: 32em) {
+															.css-1ewwnlw {
+																margin-top: 32px;
+															}
+														}
+									
+														@media print {
+															.css-1ewwnlw {
+																grid-template-columns: repeat(2, 1fr);
+															}
+														}
+													</style>
+													<div class="css-1ewwnlw">
+														<style data-emotion="css 1s98c34">
+															.css-1s98c34 {
+																box-sizing: border-box;
+																margin: 0;
+																min-width: 0;
+																background-color: var(--theme-ui-colors-elevated);
+																color: var(--theme-ui-colors-text);
+																padding: 16px;
+																border-radius: 12px;
+																box-shadow: 0 4px 8px rgba(0, 0, 0, 0.125);
+																overflow: hidden;
+																-webkit-text-decoration: none;
+																text-decoration: none;
+																-webkit-tap-highlight-color: transparent;
+																-webkit-transition: -webkit-transform .125s ease-in-out, box-shadow .125s ease-in-out;
+																transition: transform .125s ease-in-out, box-shadow .125s ease-in-out;
+																color: var(--theme-ui-colors-text);
+																-webkit-text-decoration: none;
+																text-decoration: none;
+																padding: 0;
+																line-height: 0;
+																display: -webkit-box;
+																display: -webkit-flex;
+																display: -ms-flexbox;
+																display: flex;
+																-webkit-flex-direction: column;
+																-ms-flex-direction: column;
+																flex-direction: column;
+															}
+									
+															@media screen and (min-width: 32em) {
+																.css-1s98c34 {
+																	padding: 32px;
+																}
+															}
+									
+															.css-1s98c34:hover,
+															.css-1s98c34:focus {
+																-webkit-transform: scale(1.0625);
+																-moz-transform: scale(1.0625);
+																-ms-transform: scale(1.0625);
+																transform: scale(1.0625);
+																box-shadow: 0 1px 2px rgba(0, 0, 0, 0.0625), 0 8px 12px rgba(0, 0, 0, 0.125);
+															}
+									
+															@media screen and (min-width: 32em) {
+																.css-1s98c34 {
+																	padding: 0;
+																}
+															}
+														</style><a href="https://workshops.hackclub.com/gamelab/" class="css-1s98c34">
+															<style data-emotion="css ru279w">
+																.css-ru279w {
+																	box-sizing: border-box;
+																	margin: 0;
+																	min-width: 0;
+																	padding: 16px;
+																	line-height: 1.5;
+																}
+															</style>
+															<div class="css-ru279w">
+																<style data-emotion="css flnc11">
+																	.css-flnc11 {
+																		box-sizing: border-box;
+																		margin: 0;
+																		min-width: 0;
+																		font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+																		font-weight: 700;
+																		line-height: 1.125;
+																		font-weight: 700;
+																		line-height: 1.125;
+																		margin-top: 0;
+																		margin-bottom: 0;
+																		margin-top: 4px;
+																		margin-bottom: 4px;
+																	}
+																</style>
+																<h3 class="css-flnc11">Game Lab: Dino Jump</h3>
+																<style data-emotion="css xjtjj3">
+																	.css-xjtjj3 {
+																		box-sizing: border-box;
+																		margin: 0;
+																		min-width: 0;
+																		color: var(--theme-ui-colors-muted);
+																		font-weight: medium;
+																		letter-spacing: 0.009em;
+																		line-height: 1.375;
+																	}
+																</style><span class="css-xjtjj3">Make a Game in the Hack Club Game Lab</span>
+															</div>
+															<style data-emotion="css a6s498">
+																.css-a6s498 {
+																	box-sizing: border-box;
+																	margin: 0;
+																	min-width: 0;
+																	width: 100%;
+																	margin-top: auto;
+																	height: 0;
+																	padding-bottom: 50%;
+																}
+									
+																.css-a6s498>img {
+																	object-fit: cover;
+																	object-position: center;
+																}
+									
+																@media print {
+																	.css-a6s498 {
+																		display: none;
+																	}
+																}
+															</style>
+															<div class="css-a6s498">
+																<style data-emotion="css 9taffg">
+																	.css-9taffg {
+																		box-sizing: border-box;
+																		margin: 0;
+																		min-width: 0;
+																		max-width: 100%;
+																		height: auto;
+																	}
+																</style><img alt="Game Lab: Dino Jump demo"
+																	src="https://user-images.githubusercontent.com/27078897/153313648-ee21e62f-638d-41be-81a0-00c903b9ad12.png"
+																	loading="lazy" class="css-9taffg" />
+															</div>
+														</a><a href="https://workshops.hackclub.com/muse/" class="css-1s98c34">
+															<div class="css-ru279w">
+																<h3 class="css-flnc11">Jamming with Muse</h3><span class="css-xjtjj3">Compose music with
+																	code</span>
+															</div>
+															<div class="css-a6s498"><img alt="Jamming with Muse demo"
+																	src="https://cloud-9ltsqwncl-hack-club-bot.vercel.app/0demo.png" loading="lazy"
+																	class="css-9taffg" /></div>
+														</a><a href="https://workshops.hackclub.com/stressed_ball/" class="css-1s98c34">
+															<div class="css-ru279w">
+																<h3 class="css-flnc11">Reverse Workshop: Stressed Ball</h3><span class="css-xjtjj3">learn to
+																	code like real programmers, by looking everything up</span>
+															</div>
+															<div class="css-a6s498"><img alt="Reverse Workshop: Stressed Ball demo"
+																	src="https://cloud-4h5kwjg61-hack-club-bot.vercel.app/0demo.png" loading="lazy"
+																	class="css-9taffg" /></div>
+														</a><a href="https://workshops.hackclub.com/reverse_workshop_generative_art/" class="css-1s98c34">
+															<div class="css-ru279w">
+																<h3 class="css-flnc11">Reverse Workshop: Generative Art</h3><span class="css-xjtjj3">use a
+																	toolbox of examples to compose dynamic art pieces</span>
+															</div>
+															<div class="css-a6s498"><img alt="Reverse Workshop: Generative Art demo"
+																src="https://workshops.hackclub.com/_next/image/?url=%2Fcontent%2Fworkshops%2Freverse_workshop_generative_art%2Fimg%2Fdemo.png&w=1080&q=75" loading="lazy"
+																class="css-9taffg" /></div>
+														</a><a href="https://workshops.hackclub.com/whackamole/" class="css-1s98c34">
+															<div class="css-ru279w">
+																<h3 class="css-flnc11">Whackamole!</h3><span class="css-xjtjj3">Build a Whackamole
+																	game</span>
+															</div>
+															<div class="css-a6s498"><img alt="Whackamole! demo"
+																	src="https://cloud-qqtj6180q-hack-club-bot.vercel.app/0whackamole_.png" loading="lazy"
+																	class="css-9taffg" /></div>
+														</a>
+													</div>
+												</div>
+											</section>
+										</div>
+										<!--End of Hack Club Workshops-->
 									<hr class="major" />
 
 									<!-- Elements -->
@@ -443,13 +922,6 @@ print 'It took ' + i + ' iterations to sort the deck.';
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
@@ -457,8 +929,9 @@ print 'It took ' + i + ' iterations to sort the deck.';
 									</header>
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
-										<li><a href="elements.html">Elements</a></li>
+										<li><a href="about-us.html">About Us</a></li>
+										<li><a href="resources.html">Resources</a></li>
+										<!--Rest of the Extra Menus
 										<li>
 											<span class="opener">Submenu</span>
 											<ul>
@@ -482,6 +955,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 										<li><a href="#">Maximus Erat</a></li>
 										<li><a href="#">Sapien Mauris</a></li>
 										<li><a href="#">Amet Lacinia</a></li>
+									-->
 									</ul>
 								</nav>
 
