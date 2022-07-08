@@ -1,3 +1,4 @@
 var app = require('express')();
-app.use(app.static('app'));
+const express = require('express');
+app.use(express.static('app'));
 app.listen(process.env.PORT);
