@@ -1,33 +1,14 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Tompkins Hack Club
+
+Over the past four decades, Tic Tac Toe has become an increasingly competitive event recognized by many of the TOP 20 colleges in the United States. Because of this, the TATASHASHA company is working to develop a multi-billion user platform for Tic Tac Toe lovers across the globe. We predict a 50 billion profit per year with profit generated from ads. If you are interested in sponsoring this project, you may email: johnthepilgrim@gmail.com
+
+<p align="center">
+  <img src="https://github.com/shamiya829/tictactoe/blob/main/images/doge-dogge-strong-buff-meme-shitpost-nobackground-swole-doge-mammal-animal-wildlife-bear-transparent-png-1612726-removebg-preview.png?raw=true"/>
+</p>
 
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+# Credits
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Resources:
-		Hack Club (hackclub.com)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+https://www.hackclub.com
+https://www.linkedin.com/in/itsuncheng/
+https://itsuncheng.medium.com/best-free-resources-that-computer-science-students-should-definitely-know-d148c51b956e
